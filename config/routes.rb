@@ -1,61 +1,13 @@
 Rails.application.routes.draw do
-  get 'publishers/new'
 
-  get 'publishers/create'
+  root 'books#index'
 
-  get 'publishers/update'
+  resources :books
+  resources :authors
+  resources :catergories
+  resources :publishers
 
-  get 'publishers/edit'
-
-  get 'publishers/destroy'
-
-  get 'publishers/index'
-
-  get 'publishers/show'
-
-  get 'authors/new'
-
-  get 'authors/create'
-
-  get 'authors/update'
-
-  get 'authors/edit'
-
-  get 'authors/destroy'
-
-  get 'authors/index'
-
-  get 'authors/show'
-
-  get 'catergories/new'
-
-  get 'catergories/create'
-
-  get 'catergories/update'
-
-  get 'catergories/edit'
-
-  get 'catergories/destroy'
-
-  get 'catergories/index'
-
-  get 'catergories/show'
-
-  get 'books/new'
-
-  get 'books/create'
-
-  get 'books/update'
-
-  get 'books/edit'
-
-  get 'books/destroy'
-
-  get 'books/index'
-
-  get 'books/show'
-
-  get 'about/index'
+  get 'about' =>'about#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
