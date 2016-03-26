@@ -1,5 +1,8 @@
 class CatergoriesController < ApplicationController
   def new
+    @page_title = 'Add New Category'
+
+    @category = Category.new
   end
 
   def create
@@ -19,4 +22,11 @@ class CatergoriesController < ApplicationController
 
   def show
   end
+
+  private
+    def category_params
+      params.require(:category).permit(:name)
+    end
+  end
+
 end

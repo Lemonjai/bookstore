@@ -60,3 +60,33 @@ footer{
 		margin-top: 20px;
 	}
 }
+
+#books-show{
+	h2{
+		background: #f4f4f4;
+		padding: 10px;
+	}
+	img{
+		width: 100%;
+		padding: 3px;
+		border: 1px #ccc solid;
+	}
+	.btn{
+		margin: 10px 80px 0 70px;
+	}
+}
+
+.books-show-left{
+	float: left;
+	width: 40%;
+}
+
+.books-show-right{
+	float: left;
+	width: 60%;
+	margin-top: 10px;
+}
+
+.book-show-right ul{
+	float: left;
+}

@@ -1,2 +1,27 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<div id="books-show">
+  <h2>Ruby on Rails</h2>
+  <div class="books-show-left">
+    <%= image_tag("rails4.jpg") %>
+  </div>
+  <div class="book-show-right">
+    <h3>Book info:</h3>
+    <ul>
+      <li><strong>Category: </strong>Ruby on Rails</li>
+      <li><strong>Author: </strong>Abc Def</li>
+      <li><strong>Publisher: </strong> Course Technology</li>
+      <li><strong>Year: </strong> 2007</li>
+      <li><strong>ISBN: </strong> 1234567890</li>
+      <li><strong>Format: </strong> Paperback</li>
+      <li><strong>Pages: </strong> 978</li>
+    </ul>
+
+    <%= link_to "Buy for $5.90", 'http://www.ebay.com/itm/Ruby-Rails-Power-Comprehensive-Guide-Power-/221475598855?pt=US_Nonfiction_Book&hash=item3390f97207', class:'btn btn-success',target: '_blank' %>
+  </div>
+  <div class="clearfix"></div>
+  <h4>Excerpt</h4>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus libero at pretium vulputate. Nunc tincidunt arcu non ligula dapibus, eget egestas diam bibendum. In facilisis, risus sit amet fermentum varius, quam ipsum aliquet augue, ut dapibus nisl sem sit amet felis. Pellentesque tristique iaculis mi, vel venenatis nibh faucibus a. Maecenas a nisl vitae tellus sagittis fringilla at vel ex. Praesent id elit aliquam, commodo ligula sed, tincidunt augue. Duis fringilla sit amet dolor non malesuada. Nunc condimentum id tellus quis efficitur. In blandit aliquet eros a varius. Sed ut pretium mi. Sed efficitur magna et justo placerat, eu auctor lectus scelerisque. Morbi eget ipsum in ante fringilla hendrerit. Curabitur sed nisi luctus, tristique massa sit amet, pretium diam. Etiam placerat gravida finibus. Nam non enim lacus.
+
+    Praesent eleifend dictum lorem, id aliquet massa dignissim ut. Donec eleifend in justo vel auctor. Suspendisse iaculis ultrices ornare. Vivamus eu egestas ligula, id imperdiet eros. Nunc quis pharetra nisl, vitae consequat augue. Nunc eu ante et odio lacinia ullamcorper. Sed sed dolor ac lacus pulvinar lacinia. Sed eget sodales enim. Aliquam imperdiet suscipit sapien, sed sodales enim tempus a. Pellentesque tincidunt ipsum vel pellentesque finibus. In vestibulum orci placerat fermentum ornare. Vivamus commodo eget velit eget semper. Proin scelerisque pulvinar magna non condimentum. Praesent pulvinar, erat eu euismod egestas, massa ligula auctor nunc, in aliquam ante lectus sed lorem. Praesent condimentum ipsum magna, sed sagittis neque tempus non. Vivamus aliquam est ligula, a venenatis mauris fermentum sed. 
+  </p>
+</div>
