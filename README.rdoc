@@ -2,6 +2,12 @@
 
 This is a very generic bookstore and this project is written in Ruby on Rails + postgresql database. Can be deployed to Heroku anytime.
 
+Goal: Create an admin style for the administrator when adding information into the database when a new book has arrived.
+
 Functionality:
 
-- Add, editing and deleting books
+- Adding, editing and deleting books
+- Adding, editing and deleting authors
+- Adding, editing and deleting categories
+- Adding, edition and deleting publishers
+- Add association between books, authors, categories and publishers
