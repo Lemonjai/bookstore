@@ -1,4 +1,4 @@
-== README
+== README ==
 
 This is a very generic bookstore and this project is written in Ruby on Rails + postgresql database. Can be deployed to Heroku anytime.
 
@@ -11,3 +11,6 @@ Functionality:
 - Adding, editing and deleting categories
 - Adding, edition and deleting publishers
 - Add association between books, authors, categories and publishers
+
+Note: No user logon system was added because this was more of practise for models, controllers and database with association to each other.
+	  SASS and bootstrap was used in this application for some responsive elements.
