@@ -1,4 +1,4 @@
-== README ==
+== README
 
 This is a very generic bookstore and this project is written in Ruby on Rails + postgresql database. Can be deployed to Heroku anytime.
 
