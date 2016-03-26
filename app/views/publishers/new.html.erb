@@ -1,4 +1,11 @@
 <h2>Add New Publisher</h2>
+
+<% if @publisher.errors.any? %>
+    <% @publisher.errors.full_messages.each do |msg| %>
+      <div class="alert alert-danger"><%= msg %></div>
+    <% end %>
+  <% end %>
+
 <%= form_for @publisher do |f| %>
   <div class="form-group">
     <%= f.label :name %><br/>
