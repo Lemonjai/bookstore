@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   resources :books
   resources :authors
-  resources :catergories
+  resources :categories
   resources :publishers
 
   get 'about' =>'about#index'
